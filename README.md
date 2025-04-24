@@ -1,35 +1,24 @@
 # 🛒 Danzon - E-commerce
 
-**Danzon** es una plataforma de comercio electrónico desarrollada como parte del Módulo 4 de mi formación como desarrollador Full Stack. Permite a los usuarios explorar productos, agregarlos al carrito, realizar pedidos y ver su historial de compras.
+**Danzon** es una plataforma de comercio electrónico desarrollada como parte del Módulo 4 de mi formación como desarrollador Full Stack. Permite a los usuarios explorar productos, registrarse e iniciar sesión, agregarlos al carrito, realizar pedidos y ver su historial de compras.
 
-🔗 **Deploy:** [https://danzon-ecommerce.vercel.app](https://danzon-ecommerce.vercel.app)  
-📹 **Video Demo:** [YouTube Demo](https://www.youtube.com/watch?v=ejemplo)
-
-## 📸 Capturas
-
-![Captura Desktop](https://user-images.githubusercontent.com/usuario/capturadesktop.png)
-![Captura Mobile](https://user-images.githubusercontent.com/usuario/capturamobile.png)
+🔗 **Deploy:** https://vercel-deploy-front-pm4.vercel.app/
 
 ---
 
-## 🧩 Funcionalidades
+## 🖥️ Funcionalidades
 
-### 👤 Usuarios
+### Usuarios
 - Registro e inicio de sesión
 - Autenticación con JWT
 - Encriptado de contraseñas con Bcrypt
 
-### 🛍️ Compras
+### Compras
 - Navegación de productos
 - Búsqueda por nombre
 - Carrito de compras
 - Realización de pedidos
 - Historial de compras
-
-### 🎨 Diseño
-- Interfaz responsive
-- Estilos con TailwindCSS
-- Notificaciones con React Hot Toast
 
 ---
 
@@ -53,10 +42,22 @@
 
 ## ⚙️ Instalación
 
+Requisitos previos:
+- Node.js (v18 o superior).
+- PostgreSQL.
+- npm o yarn.
+- Configurar .env
+
 ### Backend
 
 ```bash
 cd back
-cp .env.example .env
+npm install
+npm run dev
+```
+### Frontend
+
+```bash
+cd front
 npm install
 npm run dev
